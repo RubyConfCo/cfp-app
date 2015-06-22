@@ -8,6 +8,9 @@
 
 // application styles
 @import "base";
+@import "settings";
+@import "footer";
+@import "icons";
 @import "coderay";
 @import "comments";
 @import "dashboard";
@@ -19,3 +22,33 @@
 @import "social-buttons";
 @import "speaker";
 @import "badge";
+
+body{
+  background-color: #FF615C;
+}
+
+.navbar-inverse{
+  background-color: #FF615C;
+  border-color: #FF615C;
+  box-shadow: 0 0 0.7em #762226;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  color: white;
+}
+
+.navbar > .container .navbar-brand {
+  color: white;
+}
+
+.navbar{
+  height: 66ppx;
+}
+
+
+.navbar-brand {
+  float: none;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
